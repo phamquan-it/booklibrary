@@ -1,0 +1,14 @@
+#dashboard{
+    width: 100%;
+    margin: auto;
+}
+.full-height-element {
+    height: 100vh;
+}
+.nav-memu-admin div button:hover{
+    background-color: #ffc107;
+    color: black!important;
+}
+.row {
+     --bs-gutter-x: 0!important;
+}

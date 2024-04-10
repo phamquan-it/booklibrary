@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+    <script src="/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="dashboard">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary full-height-element overflow-auto p-2">
+                <div class="p-3 d-flex align-items-end">
+                    <img src="/images/admin.png" width="60" alt="" srcset="">
+                    <a href="" class="fs-1 text-decoration-none text-light">Admin</a>
+                </div>
+                <div class="nav-memu-admin overflow-auto">
+                    <a class="btn w-100  btn-warning text-start">
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                    <div class=" mt-1">
+                        <button
+                            class="btn mt-1 py-2 w-100 text-start text-white d-flex"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#contentId"
+                            aria-expanded="false"
+                            aria-controls="chart"
+                        >
+                            <div  class="me-2">
+                                <i class="fa-solid fa-book"></i>
+                            </div>    
+                            <div>Management</div>
+                        </button>
+                        <div class="collapse mt-2 ms-2 rounded bg-dark p-2" id="contentId">
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                        </div>
+                        
+                    </div>
+                    <div class=" mt-1">
+                        <button
+                            class="btn mt-1 py-2 w-100 text-start text-white d-flex"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#chart"
+                            aria-expanded="false"
+                            aria-controls="chart"
+                        >
+                            <div  class="me-2">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>    
+                            <div>Statistical</div>
+                        </button>
+                        <div class="collapse mt-2 ms-2 rounded bg-dark p-2" id="chart">
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                            <a href=""  class="btn text-start w-100 btn-light mt-1 ">Cateory list</a>
+                        </div>
+                        
+                    </div>
+                    
+                                 
+                </div>
+                
+                
+            </div>
+            <div class="col-lg-9 overflow-auto px-2">
+                <div class="mt-2 border rounded shadow-sm py-1 px-2 d-flex justify-content-between">
+                    <button class="btn btn-outline-dark border-0"><i class="fa-solid fa-bars"></i></button>
+                    <div class="d-flex">
+                        <button class="btn btn-outline-dark border-0"><i class="fa-regular fa-bell"></i></button>
+                        <button class="btn btn-outline-dark border-0"><i class="fa-solid fa-message"></i></button>
+                        
+                        <div class="dropdown open">
+                            <button
+                                class="btn dropdown-toggle border-0"
+                                type="button"
+                                id="triggerId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Admin
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <button class="dropdown-item" href="#">Action</button>
+                                <button class="dropdown-item disabled" href="#">
+                                    Disabled action
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
